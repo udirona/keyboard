@@ -1,0 +1,26 @@
+layout:
+  qmk_keyboard: corne_rotated
+  qmk_layout: LAYOUT_split_3x6_3
+layers:
+  QWERTY:
+    - [Tab, Q, W, E, R, T, Y, U, I, O, P, Bspac]
+    - [LCtrl, A, S, D, F, G, H, J, K, L,  {t: ";", s: ":"}, {t: "'", s: "\""}]
+    - [LShft, Z, X, C, V, B, N, M, {t: ",", s: "<"}, {t: ".", s: ">"}, {t: "/", s: "?"}, RShift]
+    - [LAlt, Number, {t: "Esc", h: "LGui"}, Enter, {t: "Space", h: "Symbol"}, RAlt]
+  NUM_NAV:
+    - ["Tab", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "Del"]
+    - [LCtrl, null, "Home", "PG Down", "PG Up", "End", "Left", "Down", "Up", "Right", ":", "\""]
+    - ["LShft", "Print", null, null, null, null, Ins, "RApp", null, null, null, null]
+    - [null, {type: held}, null, null, null, null]
+  SYMBOL:
+    - ["F10", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F11", "F12"]
+    - ["LCtrl", null, null, null, null, null, "-", "=", "[", "]", "\\", "`"]
+    - ["LShft", null, null, null, null, null, "_", "+", "{", "}", "|", "~"]
+    - [null, null, null, null, {type: held}, null]
+        
+  SPECIAL:
+    - [null, null, null, null, null, null, null, null, null, null, null, null]
+    - [null, null, null, null, null, null, null, null, null, null, null, null]
+    - [null, null, null, null, null, null, null, null, null, null, null, null]
+    - [null, {type: held}, null, null, {type: held}, null]
+
