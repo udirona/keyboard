@@ -17,3 +17,10 @@ layers:
     - ["LCtrl", null, null, null, null, null, "-", "=", "[", "]", "\\", "`"]
     - ["LShft", null, null, null, null, null, "_", "+", "{", "}", "|", "~"]
     - [null, null, null, null, {type: held}, null]
+        
+  SPECIAL:
+    - [null, null, null, null, null, null, null, null, null, null, null, null]
+    - [null, null, null, null, null, null, null, null, null, null, null, null]
+    - [null, null, null, null, null, null, null, null, null, null, null, null]
+    - [null, {type: held}, null, null, {type: held}, null]
+
