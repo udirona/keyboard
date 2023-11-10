@@ -1,0 +1,47 @@
+{
+  "name": "Stream Cheap 2x4",
+  "vendorProductId": 1935872532,
+  "macros": [
+    "{+KC_LCTL}q{-KC_LCTL}",
+    "{KC_LCTL,KC_RGHT}",
+    "",
+    "{KC_LALT,KC_LEFT}",
+    "{KC_LALT,KC_RGHT}",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "layers": [
+    [
+      "MACRO(2)",
+      "KC_NO",
+      "MACRO(3)",
+      "MACRO(4)",
+      "DF(1)",
+      "KC_VOLU",
+      "KC_VOLD",
+      "KC_MUTE"
+    ],
+    [
+      "MACRO(0)",
+      "KC_NO",
+      "MACRO(3)",
+      "MACRO(4)",
+      "DF(0)",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO"
+    ],
+    ["KC_NO", "KC_NO", "KC_NO", "KC_NO", "DF(3)", "KC_NO", "KC_NO", "KC_NO"],
+    ["KC_NO", "KC_NO", "KC_NO", "KC_NO", "DF(0)", "KC_NO", "KC_NO", "KC_NO"]
+  ],
+  "encoders": []
+}
