@@ -36,7 +36,7 @@ layers:
   - - '8'
     - '9'
     - '0'
-    - ''
+    - '='
     - {t: ▽, type: trans}
     - Print
     - $$mdi:ray-start$$
@@ -47,7 +47,7 @@ layers:
     - ↓
     - ↑
     - →
-    - ''
+    - ':'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - ''
@@ -71,38 +71,11 @@ layers:
     - {t: ▽, type: trans}
   L2:
   - [F10, F1, F2, F3, F4, F5, F6, F7, F8, F9]
-  - - F11
-    - F12
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - '`'
-    - {t: ▽, type: trans}
-    - ':'
-    - '='
-    - +
-  - - '-'
-    - '='
-    - '['
-    - ']'
-    - \
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - '~'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - _
-    - '-'
+  - [F11, F12, '', '', '', '', '', '', '', '']
+  - ['', '', '', '', Ctrl, '`', '', ':', '=', '']
+  - ['-', '=', '[', ']', \, Ctrl, ⇧, '~', '', '']
+  - - ''
+    - ''
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - _
@@ -110,15 +83,15 @@ layers:
     - '{'
     - '}'
     - '|'
-    - {t: ▽, type: trans}
+    - ⇧
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - _
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   L3:
-  - [RESET, '$$mdi:stop$$', '$$mdi:play-pause$$', 🕪, 🕩, 🕨, '', '', '', '']
+  - [RESET, '$$mdi:stop$$', '$$mdi:play-pause$$', 🕪, 🕩, 🕨, MNXT, MPRV, '', '']
   - - ''
     - ''
     - {t: ▽, type: trans}
@@ -140,7 +113,7 @@ layers:
     - (
     - )
   - - CG(←)
-    - LAG(UP)
+    - AG(↑)
     - ''
     - CG(→)
     - RGB VAI

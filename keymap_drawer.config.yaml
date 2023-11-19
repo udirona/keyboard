@@ -115,6 +115,7 @@ parse_config:
       tap: $$mdi:keyboard-return$$ 
       hold: L3
 
+    LAG(KC_UP): 'AG(↑)'
     G(KC_LEFT): 'G(←)'
     G(KC_RGHT): 'G(→)'
     G(KC_UP): 'G(↑)'
