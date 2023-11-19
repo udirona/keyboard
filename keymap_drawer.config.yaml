@@ -1,0 +1,276 @@
+draw_config:
+  key_w: 60.0
+  key_h: 56.0
+  split_gap: 30.0
+  combo_w: 28.0
+  combo_h: 26.0
+  key_rx: 6.0
+  key_ry: 6.0
+  n_columns: 1
+  separate_combo_diagrams: false
+  combo_diagrams_scale: 2
+  inner_pad_w: 2.0
+  inner_pad_h: 2.0
+  outer_pad_w: 30.0
+  outer_pad_h: 56.0
+  line_spacing: 1.2
+  arc_radius: 6.0
+  append_colon_to_layer_header: true
+  small_pad: 2.0
+  legend_rel_x: 0.0
+  legend_rel_y: 0.0
+  draw_key_sides: false
+  key_side_pars:
+    rel_x: 0
+    rel_y: 4
+    rel_w: 12
+    rel_h: 12
+    rx: 4
+    ry: 4
+  svg_style: "/* inherit to force styles through use tags */\nsvg path {\n    fill:\
+    \ inherit;\n}\n\n/* font and background color specifications */\nsvg.keymap {\n\
+    \    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;\n \
+    \   font-size: 14px;\n    font-kerning: normal;\n    text-rendering: optimizeLegibility;\n\
+    \    fill: #24292e;\n}\n\n/* default key styling */\nrect.key {\n    fill: #f6f8fa;\n\
+    \    stroke: #c9cccf;\n    stroke-width: 1;\n}\n\n/* default key side styling,\
+    \ only used is draw_key_sides is set */\nrect.side {\n    filter: brightness(90%);\n\
+    }\n\n/* color accent for combo boxes */\nrect.combo, rect.combo-separate {\n \
+    \   fill: #cdf;\n}\n\n/* color accent for held keys */\nrect.held, rect.combo.held\
+    \ {\n    fill: #fdd;\n}\n\n/* color accent for ghost (optional) keys */\nrect.ghost,\
+    \ rect.combo.ghost {\n    stroke-dasharray: 4, 4;\n    stroke-width: 2;\n}\n\n\
+    text {\n    text-anchor: middle;\n    dominant-baseline: middle;\n}\n\n/* styling\
+    \ for layer labels */\ntext.label {\n    font-weight: bold;\n    text-anchor:\
+    \ start;\n    stroke: white;\n    stroke-width: 2;\n    paint-order: stroke;\n\
+    }\n\n/* styling for combo tap, and key hold/shifted label text */\ntext.combo,\
+    \ text.hold, text.shifted {\n    font-size: 11px;\n}\n\ntext.hold {\n    text-anchor:\
+    \ middle;\n    dominant-baseline: auto;\n}\n\ntext.shifted {\n    text-anchor:\
+    \ middle;\n    dominant-baseline: hanging;\n}\n\n/* styling for hold/shifted label\
+    \ text in combo box */\ntext.combo.hold, text.combo.shifted {\n    font-size:\
+    \ 8px;\n}\n\n/* lighter symbol for transparent keys */\ntext.trans {\n    fill:\
+    \ #7b7e81;\n}\n\n/* styling for combo dendrons */\npath.combo {\n    stroke-width:\
+    \ 1;\n    stroke: gray;\n    fill: none;\n}\n\n/* Start Tabler Icons Cleanup */\n\
+    /* cannot use height/width with glyphs */\n.icon-tabler > path {\n    fill: inherit;\n\
+    \    stroke: inherit;\n    stroke-width: 2;\n}\n/* hide tabler's default box */\n\
+    .icon-tabler > path[stroke=\"none\"][fill=\"none\"] {\n    visibility: hidden;\n\
+    }\n/* End Tabler Icons Cleanup */\n"
+  svg_extra_style: ''
+  shrink_wide_legends: 7
+  glyph_tap_size: 14
+  glyph_hold_size: 12
+  glyph_shifted_size: 10
+  glyphs: {}
+  glyph_urls:
+    tabler: https://tabler-icons.io/static/tabler-icons/icons/{}.svg
+    mdi: https://raw.githubusercontent.com/Templarian/MaterialDesign-SVG/master/svg/{}.svg
+    mdil: https://raw.githubusercontent.com/Pictogrammers/MaterialDesignLight/master/svg/{}.svg
+    material: https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/{}/default/48px.svg
+  use_local_cache: true
+parse_config:
+  preprocess: true
+  skip_binding_parsing: false
+  raw_binding_map:
+    
+    S(KC_1): '!'
+    S(KC_2): '@'
+    S(KC_3): '#'
+    S(KC_4): '$'
+    S(KC_5): '%'
+    S(KC_6): '^'
+    S(KC_7): '&'
+    S(KC_8): '*'
+    S(KC_9): '('
+    S(KC_0): ')'
+    S(KC_SCLN): ':'
+    S(KC_EQL): '+'
+    S(KC_GRV): '~'
+    S(KC_MINS): '_'
+    S(KC_LBRC): '{'
+    S(KC_RBRC): '}'
+    S(KC_BSLS): '|'
+    KC_LEFT: '←'
+    KC_RGHT: '→'
+    KC_UP: '↑'
+    KC_DOWN: '↓'
+    KC_VOLU: '🕪'
+    KC_VOLD: '🕩'
+    KC_MUTE: '🕨'
+    KC_MSTP: $$mdi:stop$$
+    KC_MPLY: $$mdi:play-pause$$
+    KC_LSFT: '⇧'
+    KC_RSFT: '⇧'
+    KC_BSPC: $$mdi:backspace$$
+    KC_DEL: '$$mdi:backspace-reverse$$'
+    KC_ENT: '⏎'
+    KC_TAB: $$mdi:keyboard-tab$$ 
+    KC_SPC: '␣'
+    KC_LALT: 'Alt'
+    KC_RALT: 'Alt Gr'
+    KC_LCTL: 'Ctrl'
+    KC_RCTL: 'Ctrl'
+
+    LT(2,KC_SPC):
+      tap: '␣'
+      hold: L2
+    LT(3,KC_ENT):
+      tap: $$mdi:keyboard-return$$ 
+      hold: L3
+
+    G(KC_LEFT): 'G(←)'
+    G(KC_RGHT): 'G(→)'
+    G(KC_UP): 'G(↑)'
+    G(KC_DOWN): 'G(↓)'
+    C(G(KC_LEFT)): 'CG(←)'
+    C(G(KC_RGHT)): 'CG(→)'
+    MT(MOD_LGUI,KC_ESC): 
+      tap: Esc
+      hold: $$mdi:microsoft-windows$$
+    MT(MOD_LCTL | MOD_RCTL,KC_QUOT):
+      tap: '''' 
+      hold: Ctrl 
+
+    KC_HOME: $$mdi:ray-start$$
+    KC_END: $$mdi:ray-end$$
+    KC_PSCR: 'Print'
+    KC_PGDN: 'Pg↑'
+    KC_PGUP: 'Pg↓'
+    KC_INS: Ins
+    KC_APP: $$mdi:apps$$ 
+
+  sticky_label: sticky
+  trans_legend:
+    t: ▽
+    type: trans
+  mark_alternate_layer_activators: false
+  qmk_keycode_map:
+    XXXXXXX: ''
+    'NO': ''
+    MINUS: '-'
+    MINS: '-'
+    EQUAL: '='
+    EQL: '='
+    LEFT_BRACKET: '['
+    LBRC: '['
+    RIGHT_BRACKET: ']'
+    RBRC: ']'
+    BACKSLASH: \
+    BSLS: \
+    NONUS_HASH: '#'
+    NUHS: '#'
+    SEMICOLON: ;
+    SCLN: ;
+    QUOTE: ''''
+    QUOT: ''''
+    GRAVE: '`'
+    GRV: '`'
+    COMMA: ','
+    COMM: ','
+    DOT: .
+    SLASH: /
+    SLSH: /
+    TILDE: '~'
+    TILD: '~'
+    EXCLAIM: '!'
+    EXLM: '!'
+    AT: '@'
+    HASH: '#'
+    DOLLAR: $
+    DLR: $
+    PERCENT: '%'
+    PERC: '%'
+    CIRCUMFLEX: ^
+    CIRC: ^
+    AMPERSAND: '&'
+    AMPR: '&'
+    ASTERISK: '*'
+    ASTR: '*'
+    LEFT_PAREN: (
+    LPRN: (
+    RIGHT_PAREN: )
+    RPRN: )
+    UNDERSCORE: _
+    UNDS: _
+    PLUS: +
+    LEFT_CURLY_BRACE: '{'
+    LCBR: '{'
+    RIGHT_CURLY_BRACE: '}'
+    RCBR: '}'
+    PIPE: '|'
+    COLON: ':'
+    COLN: ':'
+    DOUBLE_QUOTE: '"'
+    DQUO: '"'
+    DQT: '"'
+    LEFT_ANGLE_BRACKET: <
+    LABK: <
+    LT: <
+    RIGHT_ANGLE_BRACKET: '>'
+    RABK: '>'
+    GT: '>'
+    QUESTION: '?'
+    QUES: '?'
+  zmk_keycode_map:
+    EXCLAMATION: '!'
+    EXCL: '!'
+    AT_SIGN: '@'
+    AT: '@'
+    HASH: '#'
+    POUND: '#'
+    DOLLAR: $
+    DLLR: $
+    PERCENT: '%'
+    PRCNT: '%'
+    CARET: ^
+    AMPERSAND: '&'
+    AMPS: '&'
+    ASTERISK: '*'
+    ASTRK: '*'
+    STAR: '*'
+    LEFT_PARENTHESIS: (
+    LPAR: (
+    RIGHT_PARENTHESIS: )
+    RPAR: )
+    EQUAL: '='
+    PLUS: +
+    MINUS: '-'
+    UNDERSCORE: _
+    UNDER: _
+    SLASH: /
+    FSLH: /
+    QUESTION: '?'
+    QMARK: '?'
+    BACKSLASH: \
+    BSLH: \
+    PIPE: '|'
+    NON_US_BACKSLASH: \
+    PIPE2: '|'
+    NON_US_BSLH: '|'
+    SEMICOLON: ;
+    SEMI: ;
+    COLON: ':'
+    SINGLE_QUOTE: ''''
+    SQT: ''''
+    APOSTROPHE: <
+    APOS: .
+    DOUBLE_QUOTES: '"'
+    DQT: '"'
+    COMMA: ','
+    LESS_THAN: <
+    LT: <
+    PERIOD: .
+    DOT: .
+    GREATER_THAN: '>'
+    GT: '>'
+    LEFT_BRACKET: '['
+    LBKT: '['
+    LEFT_BRACE: '{'
+    LBRC: '{'
+    RIGHT_BRACKET: ']'
+    RBKT: ']'
+    RIGHT_BRACE: '}'
+    RBRC: '}'
+    GRAVE: '`'
+    TILDE: '~'
+    NON_US_HASH: '#'
+    NUHS: '#'
+    TILDE2: '~'
+  zmk_combos: {}

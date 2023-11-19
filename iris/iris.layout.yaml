@@ -1,0 +1,167 @@
+layout: {qmk_keyboard: keebio/iris/rev7, qmk_layout: LAYOUT}
+layers:
+  L0:
+  - [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  - ['0', '$$mdi:backspace$$', '$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U]
+  - [I, O, P, \, Ctrl, A, S, D, F, G]
+  - - H
+    - J
+    - K
+    - L
+    - ;
+    - {t: '''', h: Ctrl}
+    - ⇧
+    - Z
+    - X
+    - C
+  - [V, B, ESC, Ins, N, M, ',', ., /, ⇧]
+  - - Alt
+    - L1
+    - {t: Esc, h: '$$mdi:microsoft-windows$$'}
+    - {t: '$$mdi:keyboard-return$$', h: L3}
+    - {t: ␣, h: L2}
+    - Alt Gr
+  L1:
+  - ['`', '!', '@', '#', $, '%', ^, '&', '*', (]
+  - - )
+    - $$mdi:backspace-reverse$$
+    - {t: ▽, type: trans}
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+  - - '8'
+    - '9'
+    - '0'
+    - ''
+    - {t: ▽, type: trans}
+    - Print
+    - $$mdi:ray-start$$
+    - Pg↑
+    - Pg↓
+    - $$mdi:ray-end$$
+  - - ←
+    - ↓
+    - ↑
+    - →
+    - ''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - ''
+    - ''
+    - ''
+  - - ''
+    - ''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Ins
+    - $$mdi:apps$$
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - ''
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - RGUI
+    - L3
+    - {t: ▽, type: trans}
+  L2:
+  - [F10, F1, F2, F3, F4, F5, F6, F7, F8, F9]
+  - - F11
+    - F12
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '`'
+    - {t: ▽, type: trans}
+    - ':'
+    - '='
+    - +
+  - - '-'
+    - '='
+    - '['
+    - ']'
+    - \
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '~'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - _
+    - '-'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - _
+    - +
+    - '{'
+    - '}'
+    - '|'
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  L3:
+  - [RESET, '$$mdi:stop$$', '$$mdi:play-pause$$', 🕪, 🕩, 🕨, '', '', '', '']
+  - - ''
+    - ''
+    - {t: ▽, type: trans}
+    - '!'
+    - '@'
+    - '#'
+    - $
+    - '%'
+    - ''
+    - ''
+  - - ''
+    - ''
+    - ''
+    - ''
+    - {t: ▽, type: trans}
+    - ^
+    - '&'
+    - '*'
+    - (
+    - )
+  - - CG(←)
+    - LAG(UP)
+    - ''
+    - CG(→)
+    - RGB VAI
+    - RGB TOG
+    - {t: ▽, type: trans}
+    - ''
+    - ''
+    - ''
+  - - ''
+    - ''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - G(←)
+    - G(↑)
+    - G(↓)
+    - G(→)
+    - RGB VAD
+    - RGB MOD
+  - - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
