@@ -128,7 +128,9 @@ parse_config:
     MT(MOD_LCTL | MOD_RCTL,KC_QUOT):
       tap: '''' 
       hold: Ctrl 
-
+    MT(MOD_LCTL | MOD_RCTL,KC_BSLS):
+      tap: '\'
+      hold: Ctrl
     KC_HOME: $$mdi:ray-start$$
     KC_END: $$mdi:ray-end$$
     KC_PSCR: 'Print'
