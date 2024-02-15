@@ -1,0 +1,80 @@
+{
+  "name": "Stream Cheap 2x5 with Encoder",
+  "vendorProductId": 1935872533,
+  "macros": [
+    "{KC_ESC}{50}{KC_LGUI,KC_DOWN}",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "layers": [
+    [
+      "KC_MPLY",
+      "KC_MPRV",
+      "KC_MNXT",
+      "KC_NO",
+      "TO(1)",
+      "KC_MYCM",
+      "KC_MUTE",
+      "KC_VOLD",
+      "KC_VOLU",
+      "KC_MUTE"
+    ],
+    [
+      "KC_MPLY",
+      "KC_NO",
+      "S(KC_LEFT)",
+      "C(KC_LEFT)",
+      "TO(2)",
+      "MACRO(0)",
+      "KC_MUTE",
+      "S(KC_RGHT)",
+      "C(KC_RGHT)",
+      "KC_TRNS"
+    ],
+    [
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "TO(3)",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_A"
+    ],
+    [
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "TO(0)",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_NO"
+    ]
+  ],
+  "encoders": [
+    [
+      ["KC_VOLD", "KC_VOLU"],
+      ["A(KC_LEFT)", "A(KC_RGHT)"],
+      ["KC_NO", "KC_NO"],
+      ["KC_NO", "KC_NO"]
+    ]
+  ]
+}
