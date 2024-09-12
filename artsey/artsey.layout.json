@@ -1,0 +1,88 @@
+{
+  "name": "artsey",
+  "vendorProductId": 1935872533,
+  "macros": [
+    "{KC_ESC}{50}{KC_LGUI,KC_DOWN}",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "layers": [
+    [
+      "KC_F",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_SPC",
+      "MACRO(0)",
+      "KC_NO",
+      "KC_0",
+      "KC_MUTE",
+      "FN_MO23",
+      "FN_MO13",
+      "KC_X"
+    ],
+    [
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_1",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_NO"
+    ],
+    [
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_2",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_NO"
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "RESET",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_3",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_NO"
+    ]
+  ],
+  "encoders": [
+    [
+      ["KC_VOLD", "KC_VOLU"],
+      ["KC_MS_WH_UP", "KC_MS_WH_DOWN"],
+      ["A(KC_LEFT)", "A(KC_RGHT)"],
+      ["KC_VOLU", "KC_VOLD"]
+    ]
+  ]
+}

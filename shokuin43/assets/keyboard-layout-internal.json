@@ -1,0 +1,114 @@
+[
+  {
+    "author": "udirona",
+    "backcolor": "#ff3b00ff",
+    "name": "shokuin43"
+  },
+  [
+    {
+      "c": "#460570",
+      "t": "#ffffff"
+    },
+    "F10\n\n\n\n\n\n\n\n\nTab",
+    "F1\n1\n\n\n\n\n\n\n\nQ",
+    "F2\n2\n\n\n\n\n\n\n\nW",
+    "F3\n3\n\n\n\n\n\n\n\nE",
+    "F4\n4\n\n\n\n\n\n\n\nR",
+    "F5\n5\n\n\n\n\n\n\n\nT",
+    "F6\n6\n\nBT0\n\n\n\n\n\nY",
+    "F7\n7\n\nBT1\n\n\n\n\n\nU",
+    "F8\n8\n\nBT2\n\n\n\n\n\nI",
+    "F9\n9\n\nBT3\n\n\n\n\n\nO",
+    "F11\n0\n\nBT4\n\n\n\n\n\nP",
+    {
+      "w": 1.75
+    },
+    "F12\n⌦\n\nBT Clr\n\n\n\n\n\n⌫"
+  ],
+  [
+    {
+      "a": 7,
+      "w": 1.25
+    },
+    "Ctrl",
+    {
+      "a": 4
+    },
+    "!\nPSCRN\n\n\n\n\n\n\n\nA",
+    "^\n⇤\n\n\n\n\n\n\n\nS",
+    "#\n⇞\n\n\n\n\n\n\n\nD",
+    {
+      "n": true
+    },
+    "*\n⇟\n\n\n\n\n\n\n\nF",
+    "$\n⇥\n\n\n\n\n\n\n\nG",
+    "-\n←\n\n\n\n\n\n\n\nH",
+    {
+      "n": true
+    },
+    "=\n↓\n\n\n\n\n\n\n\nJ",
+    "[\n↑\n\n\n\n\n\n\n\nK",
+    "]\n→\n\n\n\n\n\n\n\nL",
+    ":\n\"\n\n\nAlt\n\n\n\n\n;",
+    {
+      "w": 1.5
+    },
+    "\\\n'\n\n\nCtrl\n\n\n\n\n↵"
+  ],
+  [
+    {
+      "a": 7,
+      "w": 1.75
+    },
+    "⇬",
+    {
+      "a": 4
+    },
+    "@\n~\n\n\n\n\n\n\n\nZ",
+    "&\n`\n\n\n\n\n\n\n\nX",
+    "%\n\n\n\n\n\n\n\n\nC",
+    "(\n\n\n\n\n\n\n\n\nV",
+    ")\nAPP\n\n\n\n\n\n\n\nB",
+    "_\n⎈❖←\n\n\n\n\n\n\n\nN",
+    "+\n\n\n⎈❖→\n\n\n\n\n\nM",
+    "{\nINS\n\n\n\n\n\n\n\n,",
+    "}\n\n\n\n\n\n\n\n\n.",
+    "|\n\n\n\n\n\n\n\n\n/",
+    {
+      "a": 7
+    },
+    "⇬"
+  ],
+  [
+    {
+      "x": 1.5
+    },
+    "Gui",
+    {
+      "w": 1.25
+    },
+    "Alt",
+    {
+      "w": 2
+    },
+    "Esc\n\n\n\nFn2",
+    {
+      "c": "#010101",
+      "sm": "rot_ec11",
+      "a": 0
+    },
+    "",
+    {
+      "c": "#460570",
+      "sm": "",
+      "a": 7,
+      "w": 2.25
+    },
+    "␣\n\n\n\nFn1",
+    {
+      "w": 1.25
+    },
+    "Alt",
+    "Ctrl"
+  ]
+]
