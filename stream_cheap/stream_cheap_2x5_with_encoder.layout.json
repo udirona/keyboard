@@ -26,25 +26,26 @@
       "KC_MNXT",
       "KC_NO",
       "TO(1)",
-      "KC_MYCM",
+      "TO(1)",
       "KC_MUTE",
       "KC_VOLD",
       "KC_VOLU",
       "KC_MUTE"
     ],
     [
-      "KC_MPLY",
-      "KC_NO",
-      "S(KC_LEFT)",
-      "C(KC_LEFT)",
-      "TO(2)",
       "MACRO(0)",
+      "KC_NO",
+      "KC_NO",
+      "MO(2)",
+      "MO(3)",
+      "TO(2)",
       "KC_MUTE",
-      "S(KC_RGHT)",
-      "C(KC_RGHT)",
+      "KC_VOLD",
+      "KC_VOLU",
       "KC_TRNS"
     ],
     [
+      "MACRO(0)",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
@@ -53,16 +54,15 @@
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
-      "KC_TRNS",
       "KC_A"
     ],
     [
+      "MACRO(0)",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
       "TO(0)",
-      "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
@@ -73,8 +73,8 @@
     [
       ["KC_VOLD", "KC_VOLU"],
       ["A(KC_LEFT)", "A(KC_RGHT)"],
-      ["KC_NO", "KC_NO"],
-      ["KC_NO", "KC_NO"]
+      ["S(KC_LEFT)", "S(KC_RGHT)"],
+      ["C(KC_LEFT)", "C(KC_RGHT)"]
     ]
   ]
 }
