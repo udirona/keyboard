@@ -21,10 +21,10 @@
   ],
   "layers": [
     [
+      "RGUI(KC_L)",
       "KC_MPLY",
       "KC_MPRV",
       "KC_MNXT",
-      "KC_NO",
       "TO(1)",
       "TO(1)",
       "KC_MUTE",
@@ -34,8 +34,8 @@
     ],
     [
       "MACRO(0)",
-      "KC_NO",
-      "KC_NO",
+      "KC_MPLY",
+      "A(KC_RGHT)",
       "MO(2)",
       "MO(3)",
       "TO(2)",
@@ -61,7 +61,7 @@
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
-      "KC_TRNS",
+      "RESET",
       "TO(0)",
       "KC_TRNS",
       "KC_TRNS",
@@ -71,10 +71,10 @@
   ],
   "encoders": [
     [
-      ["KC_VOLD", "KC_VOLU"],
-      ["A(KC_LEFT)", "A(KC_RGHT)"],
-      ["S(KC_LEFT)", "S(KC_RGHT)"],
-      ["C(KC_LEFT)", "C(KC_RGHT)"]
+      ["KC_VOLU", "KC_VOLD"],
+      ["A(KC_RGHT)", "A(KC_LEFT)"],
+      ["S(KC_RGHT)", "S(KC_LEFT)"],
+      ["C(KC_RGHT)", "C(KC_LEFT)"]
     ]
   ]
 }

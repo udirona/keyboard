@@ -6,6 +6,7 @@ draw_config:
   combo_h: 26.0
   key_rx: 6.0
   key_ry: 6.0
+  dark_mode: false
   n_columns: 1
   separate_combo_diagrams: false
   combo_diagrams_scale: 2
@@ -27,49 +28,19 @@ draw_config:
     rel_h: 12
     rx: 4
     ry: 4
-  svg_style: "/* inherit to force styles through use tags */\nsvg path {\n    fill:\
-    \ inherit;\n}\n\n/* font and background color specifications */\nsvg.keymap {\n\
-    \    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;\n \
-    \   font-size: 14px;\n    font-kerning: normal;\n    text-rendering: optimizeLegibility;\n\
-    \    fill: #24292e;\n}\n\n/* default key styling */\nrect.key {\n    fill: #f6f8fa;\n\
-    \    stroke: #c9cccf;\n    stroke-width: 1;\n}\n\n/* default key side styling,\
-    \ only used is draw_key_sides is set */\nrect.side {\n    filter: brightness(90%);\n\
-    }\n\n/* color accent for combo boxes */\nrect.combo, rect.combo-separate {\n \
-    \   fill: #cdf;\n}\n\n/* color accent for held keys */\nrect.held, rect.combo.held\
-    \ {\n    fill: #fdd;\n}\n\n/* color accent for ghost (optional) keys */\nrect.ghost,\
-    \ rect.combo.ghost {\n    stroke-dasharray: 4, 4;\n    stroke-width: 2;\n}\n\n\
-    text {\n    text-anchor: middle;\n    dominant-baseline: middle;\n}\n\n/* styling\
-    \ for layer labels */\ntext.label {\n    font-weight: bold;\n    text-anchor:\
-    \ start;\n    stroke: white;\n    stroke-width: 2;\n    paint-order: stroke;\n\
-    }\n\n/* styling for combo tap, and key hold/shifted label text */\ntext.combo,\
-    \ text.hold, text.shifted {\n    font-size: 11px;\n}\n\ntext.hold {\n    text-anchor:\
-    \ middle;\n    dominant-baseline: auto;\n}\n\ntext.shifted {\n    text-anchor:\
-    \ middle;\n    dominant-baseline: hanging;\n}\n\n/* styling for hold/shifted label\
-    \ text in combo box */\ntext.combo.hold, text.combo.shifted {\n    font-size:\
-    \ 8px;\n}\n\n/* lighter symbol for transparent keys */\ntext.trans {\n    fill:\
-    \ #7b7e81;\n}\n\n/* styling for combo dendrons */\npath.combo {\n    stroke-width:\
-    \ 1;\n    stroke: gray;\n    fill: none;\n}\n\n/* Start Tabler Icons Cleanup */\n\
-    /* cannot use height/width with glyphs */\n.icon-tabler > path {\n    fill: inherit;\n\
-    \    stroke: inherit;\n    stroke-width: 2;\n}\n/* hide tabler's default box */\n\
-    .icon-tabler > path[stroke=\"none\"][fill=\"none\"] {\n    visibility: hidden;\n\
-    }\n/* End Tabler Icons Cleanup */\n"
   svg_extra_style: ''
+  footer_text: ''
   shrink_wide_legends: 7
+  style_layer_activators: true
   glyph_tap_size: 14
   glyph_hold_size: 12
   glyph_shifted_size: 10
   glyphs: {}
-  glyph_urls:
-    tabler: https://tabler-icons.io/static/tabler-icons/icons/{}.svg
-    mdi: https://raw.githubusercontent.com/Templarian/MaterialDesign-SVG/master/svg/{}.svg
-    mdil: https://raw.githubusercontent.com/Pictogrammers/MaterialDesignLight/master/svg/{}.svg
-    material: https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/{}/default/48px.svg
-  use_local_cache: true
 parse_config:
   preprocess: true
   skip_binding_parsing: false
-  raw_binding_map:
-    
+  raw_binding_map: 
+
     S(KC_1): '!'
     S(KC_2): '@'
     S(KC_3): '#'
@@ -138,12 +109,30 @@ parse_config:
     KC_PGUP: 'Pg↓'
     KC_INS: Ins
     KC_APP: $$mdi:apps$$ 
-
+  
   sticky_label: sticky
+  toggle_label: toggle
+  tap_toggle_label: tap-toggle
   trans_legend:
     t: ▽
     type: trans
   mark_alternate_layer_activators: false
+  modifier_fn_map:
+    left_ctrl: Ctl
+    right_ctrl: Ctl
+    left_shift: Sft
+    right_shift: Sft
+    left_alt: Alt
+    right_alt: AGr
+    left_gui: Gui
+    right_gui: Gui
+    keycode_combiner: '{mods}+ {key}'
+    mod_combiner: '{mod_1}+{mod_2}'
+    special_combinations:
+      left_ctrl+left_alt+left_gui+left_shift: Hyper
+      left_ctrl+left_alt+left_shift: Meh
+  qmk_remove_keycode_prefix:
+  - KC_
   qmk_keycode_map:
     XXXXXXX: ''
     'NO': ''
@@ -211,6 +200,7 @@ parse_config:
     GT: '>'
     QUESTION: '?'
     QUES: '?'
+  zmk_remove_keycode_prefix: []
   zmk_keycode_map:
     EXCLAMATION: '!'
     EXCL: '!'
@@ -252,8 +242,8 @@ parse_config:
     COLON: ':'
     SINGLE_QUOTE: ''''
     SQT: ''''
-    APOSTROPHE: <
-    APOS: .
+    APOSTROPHE: ''''
+    APOS: ''''
     DOUBLE_QUOTES: '"'
     DQT: '"'
     COMMA: ','
@@ -277,3 +267,5 @@ parse_config:
     NUHS: '#'
     TILDE2: '~'
   zmk_combos: {}
+  zmk_preamble: '#define KEYMAP_DRAWER'
+  zmk_additional_includes: []
