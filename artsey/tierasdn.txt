@@ -1,0 +1,83 @@
+		T I N R 					1 2 3 4
+		A S D E						5 6 7 8
+
+H 	xx__ 		__xx 	U
+    ____ 		____ 	
+
+L   ____ 		____ 	C
+    xx__ 		__xx	
+
+G   _xx_ 		____ 	M		9   _xx_ 		____ 	0
+    ____ 		_xx_ 				____ 		_xx_ 	
+
+O   x__x 		____ 	B
+    ____ 		x__x 	
+
+W   x_x_ 		_x_x 	F
+    ____ 		____ 	
+
+K   ____ 		____ 	Z
+    x_x_ 		_x_x 	
+
+P   x___ 		___x 	V
+    __x_ 		_x__ 	
+
+J   _x__ 		__x_ 	Y
+    __x_ 		_x__ 	
+
+X   x___ 		___x 	Q
+    ___x 		x___
+
+;   x___ 		___x 	.
+    _x__ 		__x_     
+
+/   _x__ 		___x 	-
+    ___x 		__x_     
+
+,   __x_ 		_x__ 	"
+    ___x 		x___     
+	
+
+TAB x___ 		___x 	ESC
+    x___ 		___x
+
+    _x__ 		__x_ 	
+    _x__ 		__x_
+
+    __x_ 		_x__ 	
+    __x_ 		_x__
+
+	____ 		____
+CR  xxx_ 		_xxx 	
+
+   	xxx_ 		_xxx 	
+	____ 		____
+
+Thumb-Keys
+
+Inner: 
+	Shift, Space
+Outer:
+	NUM-Layer, Backspace
+Inner+Outer:
+	NAV-Layer, Enter
+
+
+KC_EXLM !
+KC_AT   @
+KC_HASH #
+KC_PERC %
+KC_CIRC ^
+KC_AMPR &
+KC_ASTR *
+KC_LPRN (
+KC_DLR  $
+KC_RPRN )
+
+//KC_LBRC	[ and {
+//KC_RBRC	] and }
+//KC_BSLS	\ and |
+//KC_GRV	` and ~
+//KC_QUOT	' and "
+
+Es fehlen komplexe Kombos
