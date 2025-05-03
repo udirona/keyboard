@@ -4,7 +4,7 @@ This is my personal keyboard configs.
 
   - Layout File
 
-# crkbd (r2g from )
+# crkbd (r2g from mechboards.co.uk)
 
  - Layout File
  - Via settings (contains a fix)

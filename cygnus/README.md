@@ -1,12 +1,14 @@
+
 # Keymap
 
-![Crkbd Keymap](crkbd.svg)
+TODO crkbd
 
 # Build
 
 | Item | Type | 
 |-|-|
 | FW        | QMK      | 
-| MCU       | Arduino  | 
-| Switches  | Cherry MX White |
+| MCU       | RP2040 Zero  | 
+| Switches  | Gateron MX Red |
 | Keycaps   | OEM      | 
+
