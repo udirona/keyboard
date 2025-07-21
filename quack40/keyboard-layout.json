@@ -4,16 +4,16 @@
       "c": "#05ff00",
       "a": 0
     },
-    "F1\n1\n!\n\n\nBoot\nQ",
-    "F2\n2\n@\n\n\nCA(F1)\nW",
-    "F3\n3\n#\n\n\nCA(F2)\nE",
-    "F4\n4\n$\n\n\nCA(F3)\nR",
+    "!\n1\nF1\n\n\nBoot\nQ",
+    "@\n2\nF2\n\n\nCA(F1)\nW",
+    "#\n3\nF3\n\n\nCA(F2)\nE",
+    "$\n4\nF4\n\n\nCA(F3)\nR",
     {
       "a": 4
     },
-    "F5\n5\n%\n\n\n\nT",
-    "F6\n6\n^\n\n\n\nY",
-    "F7\n7\n&\n\n\n\nU",
+    "%\n5\nF5\n\n\n\nT",
+    "^\n6\nF6\n\n\n\nY",
+    "&\n7\nF7\n\n\n\nU",
     "F8\n8\n*\n\n\n\nI",
     "F9\n9\n(\n\n\n\nO",
     {
@@ -34,32 +34,32 @@
       "t": "#000000"
     },
     "~\n⇤\n\n\n\nC(F1)\nS",
-    "\n⇞\n\n\n\nC(F2)\nD",
-    "\n⇟\n\n\n⇬\nC(F3)\nF",
+    ";\n⇞\n\n\n\nC(F2)\nD",
+    "'\n⇟\n\n\n⇬\nC(F3)\nF",
     {
       "a": 4
     },
-    "\n⇥\n\n\n\n\nG",
+    "\"\n⇥\n\n\n\n\nG",
     {
       "c": "#383333",
       "t": "#05ff49"
     },
-    "\n←\n\n\n\n\nH",
+    "-\n←\n\n\n\n\nH",
     {
       "a": 0
     },
-    "\n↓\n\n\n⇬\n\nJ",
+    "=\n↓\n\n\n⇬\n\nJ",
     {
       "a": 4
     },
-    "\n↑\n\n\n\n\nK",
-    "\n→\n\n\n\n\nL",
+    "[\n↑\n\n\n\n\nK",
+    "]\n→\n\n\n\n\nL",
     {
       "c": "#05ff00",
       "t": "#000000",
       "a": 0
     },
-    "⌦\n⌫\n\n\n⎈\n\n↵"
+    ":\n⌦\n\n\n⎈\n\n↵"
   ],
   [
     {
@@ -67,30 +67,33 @@
       "t": "#05ff49",
       "w": 1.75
     },
-    "\nEsc\n\n\nLow\nBase\nZ",
+    "{\nEsc\n\n\nLow\nBase\nZ",
     {
       "c": "#05ff00",
       "t": "#000000",
       "a": 4
     },
-    "_\n-\n\n\n\n\nX",
-    "+\n=\n\n\n\n\nC",
-    "{\n[\n\n\n\n\nV",
-    "}\n]\n\n\n\n\nB",
+    "}\n\n\n\n\n\nX",
+    "?\n\n\n\n\n\nC",
+    "\\\n\n\n\n\n\nV",
+    {
+      "a": 6
+    },
+    "B",
     {
       "a": 0
     },
-    "|\n\\\n\n\n\n⎈❖←\nN",
-    ":\n;\n\n\n\n⎈❖→\nM",
+    "_\n\n\n\n\n⎈❖←\nN",
+    "+\n\n\n\n\n⎈❖→\nM",
     {
       "a": 4
     },
-    "\"\n'\n\n\n\n\n,",
+    "/\n\n\n\n\n\n,",
     {
       "a": 0,
       "w": 1.5
     },
-    "?\n/\n\n\nLow\n\n."
+    "|\n\n\n\nLow\n\n."
   ],
   [
     {
@@ -99,7 +102,7 @@
       "a": 4,
       "w": 1.25
     },
-    "Raise",
+    "Sym",
     {
       "a": 6,
       "w": 1.25
@@ -110,10 +113,10 @@
     },
     "⎇",
     {
-      "a": 7,
+      "a": 4,
       "w": 2.75
     },
-    "␣\n\n\n\n⇬",
+    "\n⌫\n\n\n⇬\n\n\n\n\n␣",
     {
       "a": 6,
       "w": 1.25
