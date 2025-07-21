@@ -1,23 +1,27 @@
 [
   [
     {
-      "c": "#05ff00"
+      "c": "#05ff00",
+      "a": 0
     },
-    "F1\n1\n\nBoot\n\n\nQ",
-    "F2\n2\n\n\n\n\nW",
-    "F3\n3\n\n\n\n\nE",
-    "F4\n4\n\n\n\n\nR",
-    "F5\n5\n\n\n\n\nT",
-    "F6\n6\n\n\n\n\nY",
-    "F7\n7\n\n\n\n\nU",
-    "F8\n8\n\n\n\n\nI",
-    "F9\n9\n\n\n\n\nO",
+    "F1\n1\n!\n\n\nBoot\nQ",
+    "F2\n2\n@\n\n\nCA(F1)\nW",
+    "F3\n3\n#\n\n\nCA(F2)\nE",
+    "F4\n4\n$\n\n\nCA(F3)\nR",
+    {
+      "a": 4
+    },
+    "F5\n5\n%\n\n\n\nT",
+    "F6\n6\n^\n\n\n\nY",
+    "F7\n7\n&\n\n\n\nU",
+    "F8\n8\n*\n\n\n\nI",
+    "F9\n9\n(\n\n\n\nO",
     {
       "c": "#383333",
       "t": "#05ff49",
       "w": 1.25
     },
-    "F10\n0\n\n\n\n\nP"
+    "F10\n0\n)\n\n\n\nP"
   ],
   [
     {
@@ -27,15 +31,11 @@
     "`\nTab\n\n\n⎈\nColm\nA",
     {
       "c": "#05ff00",
-      "t": "#000000",
-      "a": 4
+      "t": "#000000"
     },
-    "~\n⇤\n\n\n\n\nS",
-    "\n⇞\n\n\n\n\nD",
-    {
-      "a": 0
-    },
-    "\n⇟\n\n\n⇬\n\nF",
+    "~\n⇤\n\n\n\nC(F1)\nS",
+    "\n⇞\n\n\n\nC(F2)\nD",
+    "\n⇟\n\n\n⇬\nC(F3)\nF",
     {
       "a": 4
     },
@@ -74,7 +74,7 @@
       "a": 4
     },
     "_\n-\n\n\n\n\nX",
-    "\n=\n\n\n\n\nC",
+    "+\n=\n\n\n\n\nC",
     "{\n[\n\n\n\n\nV",
     "}\n]\n\n\n\n\nB",
     {
@@ -113,21 +113,21 @@
       "a": 7,
       "w": 2.75
     },
-    "␣",
+    "␣\n\n\n\n⇬",
     {
       "a": 6,
       "w": 1.25
     },
     "⎇",
     {
+      "a": 3,
+      "w": 1.25
+    },
+    "\n\n\n\n\nSys",
+    {
       "a": 4,
       "w": 1.25
     },
-    "\n\n\nSys",
-    {
-      "a": 7,
-      "w": 1.25
-    },
-    ""
+    "\n\nSym"
   ]
 ]
