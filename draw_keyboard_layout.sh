@@ -15,3 +15,9 @@ rm ./iris/iris.layout.yaml
 
 rm ./corne/crkbd.via2json.json
 rm ./corne/crkbd.layout.yaml
+
+
+
+
+qmk c2json ~/qmk_firmware/keyboards/ferris/keymaps/username/keymap.c | keymap parse -c 10 -q - >sweep_keymap.yaml
+keymap -c my_config.yaml draw [...] my_keymap.yaml >my_keymap.svg
