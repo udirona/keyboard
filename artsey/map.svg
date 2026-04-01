@@ -7,7 +7,7 @@
    viewBox="0 0 100 150"
    version="1.1"
    id="svg1"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
    sodipodi:docname="map.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,13 +24,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="257.03332"
-     inkscape:cy="251.90679"
-     inkscape:window-width="1279"
-     inkscape:window-height="441"
-     inkscape:window-x="123"
-     inkscape:window-y="123"
+     inkscape:zoom="1.8793077"
+     inkscape:cx="221.89022"
+     inkscape:cy="250.35815"
+     inkscape:window-width="1340"
+     inkscape:window-height="1172"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
@@ -3533,8 +3533,8 @@
        id="rect1-32-30-2-8-8"
        width="3.0161619"
        height="3.0161619"
-       x="56.955574"
-       y="95.738258"
+       x="49.027714"
+       y="68.503242"
        rx="0.60323238"
        ry="0.60323238" />
     <rect
@@ -3542,8 +3542,8 @@
        id="rect1-32-30-2-8-8-5"
        width="3.0161619"
        height="3.0161619"
-       x="60.71389"
-       y="97.877686"
+       x="52.786034"
+       y="70.642662"
        rx="0.60323238"
        ry="0.60323238" />
     <rect
@@ -3551,8 +3551,8 @@
        id="rect1-32-30-2-8-8-6"
        width="3.0161619"
        height="3.0161619"
-       x="56.839302"
-       y="102.00429"
+       x="48.911442"
+       y="74.769257"
        rx="0.60323238"
        ry="0.60323238" />
     <rect
@@ -3560,8 +3560,8 @@
        id="rect1-32-30-2-8-8-5-6"
        width="3.0161619"
        height="3.0161619"
-       x="60.597618"
-       y="104.14371"
+       x="52.669762"
+       y="76.908676"
        rx="0.60323238"
        ry="0.60323238" />
     <rect
@@ -3569,8 +3569,8 @@
        id="rect1-32-30-2-8-8-68"
        width="3.0161619"
        height="3.0161619"
-       x="56.905121"
-       y="108.9951"
+       x="48.977261"
+       y="81.760071"
        rx="0.60323238"
        ry="0.60323238" />
     <rect
@@ -3578,8 +3578,8 @@
        id="rect1-32-30-2-8-8-5-0"
        width="3.0161619"
        height="3.0161619"
-       x="60.663437"
-       y="111.13452"
+       x="52.73558"
+       y="83.89949"
        rx="0.60323238"
        ry="0.60323238" />
     <rect
@@ -3649,7 +3649,7 @@
          sodipodi:role="line"
          id="tspan53"
          x="71.718567"
-         y="59.626793">)</tspan></text>
+         y="59.626793">&lt;</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.168"
@@ -3724,25 +3724,25 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0819219;stroke-opacity:1"
-       x="66.199371"
-       y="104.29138"
+       x="58.271515"
+       y="77.056358"
        id="text32-4"><tspan
          sodipodi:role="line"
          id="tspan32-3"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.0819219"
-         x="66.199371"
-         y="104.29138">Num/ Backspace</tspan></text>
+         x="58.271515"
+         y="77.056358">Num/ Backspace</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0819219;stroke-opacity:1"
-       x="66.650299"
-       y="111.57986"
+       x="58.722439"
+       y="84.34481"
        id="text32-4-1"><tspan
          sodipodi:role="line"
          id="tspan32-3-0"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.0819219"
-         x="66.650299"
-         y="111.57986">Sym/ Enter</tspan></text>
+         x="58.722439"
+         y="84.34481">Sym/ Enter</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.168"
@@ -3762,14 +3762,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0819219;stroke-opacity:1"
-       x="66.315643"
-       y="98.02536"
+       x="58.387787"
+       y="70.790344"
        id="text32-4-8"><tspan
          sodipodi:role="line"
          id="tspan32-3-6"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.0819219"
-         x="66.315643"
-         y="98.02536">Marcros/ Space</tspan></text>
+         x="58.387787"
+         y="70.790344">Marcros/ Space</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.168"
@@ -3818,7 +3818,7 @@
        width="5"
        height="5"
        x="61.680927"
-       y="66.113503"
+       y="97.863495"
        rx="1"
        ry="1" />
     <rect
@@ -3827,7 +3827,7 @@
        width="5"
        height="5"
        x="66.680916"
-       y="66.113503"
+       y="97.863495"
        rx="1"
        ry="1" />
     <rect
@@ -3836,7 +3836,7 @@
        width="5"
        height="5"
        x="71.713074"
-       y="66.113503"
+       y="97.863495"
        rx="1"
        ry="1" />
     <rect
@@ -3845,7 +3845,7 @@
        width="5"
        height="5"
        x="76.713074"
-       y="66.113503"
+       y="97.863495"
        rx="1"
        ry="1" />
     <rect
@@ -3854,7 +3854,7 @@
        width="5"
        height="5"
        x="61.713085"
-       y="71.113503"
+       y="102.86349"
        rx="1"
        ry="1" />
     <rect
@@ -3863,7 +3863,7 @@
        width="5"
        height="5"
        x="66.713074"
-       y="71.113503"
+       y="102.86349"
        rx="1"
        ry="1" />
     <rect
@@ -3872,7 +3872,7 @@
        width="5"
        height="5"
        x="71.745239"
-       y="71.113503"
+       y="102.86349"
        rx="1"
        ry="1" />
     <rect
@@ -3881,7 +3881,7 @@
        width="5"
        height="5"
        x="76.745239"
-       y="71.113503"
+       y="102.86349"
        rx="1"
        ry="1" />
     <text
@@ -3893,17 +3893,17 @@
          sodipodi:role="line"
          id="tspan49-9"
          x="63.468163"
-         y="75.227348">^</tspan></text>
+         y="75.227348" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.168"
-       x="63.740639"
-       y="69.705681"
+       x="61.963295"
+       y="101.45567"
        id="text3-0-2-6"><tspan
          sodipodi:role="line"
          id="tspan45-2"
-         x="63.740639"
-         y="69.705681">!</tspan></text>
+         x="61.963295"
+         y="101.45567">M1</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.168"
@@ -3928,78 +3928,129 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.168"
-       x="67.581787"
-       y="69.544456"
+       x="66.903587"
+       y="101.59846"
        id="text5-2-6-6"><tspan
          sodipodi:role="line"
          id="tspan46-4"
-         x="67.581787"
-         y="69.544456">@</tspan></text>
+         x="66.903587"
+         y="101.59846">M2</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.168"
-       x="73.330956"
-       y="69.699486"
+       x="72.20842"
+       y="101.5664"
        id="text6-5-7-9"><tspan
          sodipodi:role="line"
          id="tspan47-0"
-         x="73.330956"
-         y="69.699486">#</tspan></text>
+         x="72.20842"
+         y="101.5664">M3</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.168"
-       x="77.801529"
-       y="69.705681"
+       x="76.912857"
+       y="101.68953"
        id="text7-2-8-4"><tspan
          sodipodi:role="line"
          id="tspan48-4"
-         x="77.801529"
-         y="69.705681">%</tspan></text>
+         x="76.912857"
+         y="101.68953">M4</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.168"
-       x="68.123215"
-       y="74.696373"
+       x="62.042831"
+       y="106.49313"
        id="text9-3-3-4"><tspan
          sodipodi:role="line"
          id="tspan50-6"
-         x="68.123215"
-         y="74.696373">&amp;</tspan></text>
+         x="62.042831"
+         y="106.49313">M5</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.168"
-       x="73.626671"
-       y="75.240524"
+       x="66.985023"
+       y="106.4994"
        id="text10-7-1-0"><tspan
          sodipodi:role="line"
          id="tspan51-4"
-         x="73.626671"
-         y="75.240524">*</tspan></text>
+         x="66.985023"
+         y="106.4994">M6</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.168"
-       x="78.627449"
-       y="74.43515"
+       x="72.126114"
+       y="106.39561"
        id="text11-3-27-0"><tspan
          sodipodi:role="line"
          id="tspan52-7"
-         x="78.627449"
-         y="74.43515">(</tspan></text>
+         x="72.126114"
+         y="106.39561">M7</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0819219;stroke-opacity:1"
        x="44.16164"
-       y="69.400658"
+       y="101.15064"
        id="text32-4-8-5-9-6"><tspan
          sodipodi:role="line"
          id="tspan32-3-6-2-1-1"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.0819219"
          x="44.16164"
-         y="69.400658">Macros</tspan><tspan
+         y="101.15064">Macros</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.0819219"
          x="44.16164"
-         y="73.398369"
+         y="105.14835"
          id="tspan8" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;writing-mode:lr-tb;direction:ltr;fill:#000080;stroke-width:1.065"
+       x="49.535622"
+       y="109.12817"
+       id="text14"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         style="stroke-width:1.065"
+         x="49.535622"
+         y="109.12817" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#000000;fill-opacity:1;stroke-width:1.065"
+         id="tspan16"
+         x="49.535622"
+         y="113.09692">M1 - Gui+L</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#000000;fill-opacity:1;stroke-width:1.065"
+         x="49.535622"
+         y="117.09463"
+         id="tspan17">M2 -</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#000000;fill-opacity:1;stroke-width:1.065"
+         x="49.535622"
+         y="121.09233"
+         id="tspan18">M3 -</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#000000;fill-opacity:1;stroke-width:1.065"
+         x="49.535622"
+         y="125.09004"
+         id="tspan19">M4 - </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#000000;fill-opacity:1;stroke-width:1.065"
+         x="49.535622"
+         y="129.08775"
+         id="tspan20">M5 -</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#000000;fill-opacity:1;stroke-width:1.065"
+         x="49.535622"
+         y="133.08546"
+         id="tspan23">M6 - Ctrl+Gui+L</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#000000;fill-opacity:1;stroke-width:1.065"
+         x="49.535622"
+         y="137.08316"
+         id="tspan39">M7 - Gui+D</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#000000;fill-opacity:1;stroke-width:1.065"
+         x="49.535622"
+         y="141.08087"
+         id="tspan41">M8 - Ctrl+Gui+R</tspan></text>
   </g>
 </svg>
